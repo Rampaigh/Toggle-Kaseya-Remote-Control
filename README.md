@@ -2,7 +2,7 @@
 Toggle between enabling and disabling the Kaseya Remote Control
 
 
-```dos
+```shell
 @echo off
 REG QUERY HKEY_LOCAL_MACHINE\SOFTWARE\Kaseya\Agent /v DriverControl
 IF %errorlevel%==0 GOTO Enable32
